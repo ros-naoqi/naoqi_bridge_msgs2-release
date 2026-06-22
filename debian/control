@@ -1,0 +1,14 @@
+Source: ros-jazzy-naoqi-bridge-msgs
+Section: misc
+Priority: optional
+Maintainer: "Victor Paléologue" <victor.paleologue@palaio.eu>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-action-msgs, ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rosidl-default-generators, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-trajectory-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/naoqi_bridge_msgs/#jazzy
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-naoqi-bridge-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-action-msgs, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-trajectory-msgs, ros-jazzy-ros-workspace
+Conflicts: ros-jazzy-naoqi-msgs
+Replaces: ros-jazzy-naoqi-msgs
+Description: The naoqi_bridge_msgs package provides custom messages for running Aldebaran's robots in ROS2.
