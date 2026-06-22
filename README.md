@@ -1,3 +1,26 @@
+## naoqi_bridge_msgs2 (kilted) - 2.1.1-1
+
+The packages in the `naoqi_bridge_msgs2` repository were released into the `kilted` distro by running `/root/Code/Palaio/naoqi-ros2-control/bloom-venv/bin/bloom-release -y --no-web --no-pull-request --override-release-repository-url https://github.com/ros-naoqi/naoqi_bridge_msgs2-release.git -r kilted -t kilted naoqi_bridge_msgs2` on `Mon, 22 Jun 2026 09:34:43 -0000`
+
+The `naoqi_bridge_msgs` package was released.
+
+Version of package(s) in repository `naoqi_bridge_msgs2`:
+
+- upstream repository: https://github.com/ros-naoqi/naoqi_bridge_msgs2.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## naoqi_bridge_msgs2 (jazzy) - 2.1.1-1
 
 The packages in the `naoqi_bridge_msgs2` repository were released into the `jazzy` distro by running `/root/Code/Palaio/naoqi-ros2-control/bloom-venv/bin/bloom-release -y --no-web --no-pull-request --override-release-repository-url https://github.com/ros-naoqi/naoqi_bridge_msgs2-release.git -r jazzy -t jazzy naoqi_bridge_msgs2` on `Mon, 22 Jun 2026 09:33:55 -0000`
